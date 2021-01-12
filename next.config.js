@@ -14,6 +14,8 @@ const nextSettings = {
         title: 'Martfury',
         titleDescription: 'Multipurpose Marketplace React Ecommerce Template',
     },
+    distDir: 'build',
 };
-
 module.exports = withPlugins([withImages(), nextSettings]);
+
+// module.exports = withPlugins([withImages(), nextSettings]);

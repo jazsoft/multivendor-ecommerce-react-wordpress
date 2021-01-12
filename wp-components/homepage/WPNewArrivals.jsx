@@ -40,6 +40,7 @@ const WPNewArrivals = () => {
     // Views
     let productsView, categoriedView;
     if (categories) {
+        console.log({categories})
         categoriedView = categories.items.map((item) => (
             <li key={item.id}>
                 <Link href={`/shop?category=${item.slug}`}>
